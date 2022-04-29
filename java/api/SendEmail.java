@@ -14,8 +14,8 @@ public class SendEmail {
 
 	public static void sendMail(String email, String uname, String upw) {
 		String host = "smtp.naver.com"; // 사용할 사이트
-		final String user = "qktyd1003@naver.com"; // ID
-		final String password = "a39193041a1!1!"; // PW
+		final String user = ""; // ID
+		final String password = ""; // PW
 
 		String to = email;// 보낼 email주소
 System.out.println("sss");
