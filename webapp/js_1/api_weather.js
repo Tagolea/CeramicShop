@@ -6,7 +6,7 @@ function showLocation(event) {
 	  var longitude = event.coords.longitude
 
 	  //API키 URL연결	  
-	  let apiKey = "e976a4fc3c4c5ce079350fc633595748"
+	  let apiKey = ""
 	  let weatherUrl = "https://api.openweathermap.org/data/2.5/weather?lat=" + latitude 
 	                + "&lon=" + longitude 
 	                + "&appid=" + apiKey; 
